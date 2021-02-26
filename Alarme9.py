@@ -30,9 +30,6 @@ Secteur_240V=36
 Detecteur=11
 Couloir=37
 Cuisine=35
-Guirlande1=5
-Guirlande2=7
-Relais_guirlande=3
 Contacteur=40
 Alarme_ouverte=33
 nbr_lecture_88=2
@@ -46,9 +43,6 @@ GPIO.setup(LED_Rouge, GPIO.OUT)
 GPIO.setup(LED_Verte, GPIO.OUT)
 GPIO.setup(LED_Orange, GPIO.OUT)
 GPIO.setup(Detecteur, GPIO.IN)
-GPIO.setup(Guirlande1, GPIO.OUT)
-GPIO.setup(Guirlande2, GPIO.OUT)
-GPIO.setup(Relais_guirlande, GPIO.OUT)
 GPIO.setup(Cuisine, GPIO.IN)
 GPIO.setup(Couloir, GPIO.IN)
 GPIO.setup(Secteur_240V, GPIO.IN)
